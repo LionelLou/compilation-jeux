@@ -62,7 +62,7 @@ For more information on using the Angular CLI, including detailed command refere
 ## Build the app to deploy on github pages
 
 ```bash
-ng build --output-path docs --base-href /compilation-jeux
+ng build --output-path docs --base-href /compilation-jeux/
 ```
 ## after that, copy paste the content of the "browser" folder directly inside the "docs" folder and delete the "browser" folder. Finally, push these changes for deploy
 
