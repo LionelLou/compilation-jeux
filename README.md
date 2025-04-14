@@ -67,3 +67,15 @@ ng build --output-path docs --base-href /compilation-jeux/
 ## after that, copy paste the content of the "browser" folder directly inside the "docs" folder and delete the "browser" folder. Finally, push these changes for deploy
 
 
+
+## Other way to deploy app on github pages
+
+### first, add angular cli ghpages
+```bash
+ng add angular-cli-ghpages
+```
+
+### second 
+```bash
+ng deploy --base-href /compilation-jeux/
+```
